@@ -49,7 +49,8 @@ sepBy p sep = go <|> pure []
             pure (r:rs)
 
 arrayP :: Parser Value 
-arrayP = Arr <$> between (ch (=='[')) (ch (==']')) (sepBy valueP (ch (==',')))
+arrayP = Arr <$> between (ch (=='[')) (token $ ch (==']')) 
+                    (sepBy valueP (token $ ch (==',')))
 
 nullP :: Parser Value 
 nullP = do 
