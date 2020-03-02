@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lecture: Fun with sequential composition                                   --
+-- Lecture: Input and output                                                  --
 --------------------------------------------------------------------------------
 
 module Event where

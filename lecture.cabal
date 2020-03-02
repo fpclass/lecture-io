@@ -1,6 +1,6 @@
 name:                lecture
 version:             1.0.0.0
-homepage:            https://github.com/fpclass/lecture23#readme
+homepage:            https://github.com/fpclass/lecture24#readme
 author:              Michael B. Gale
 maintainer:          m.gale@warwick.ac.uk
 copyright:           Copyright 2020 Michael B. Gale
@@ -17,4 +17,4 @@ library
 
 source-repository head
   type:     git
-  location: https://github.com/fpclass/lecture23
+  location: https://github.com/fpclass/lecture24
