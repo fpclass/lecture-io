@@ -10,7 +10,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lab, JSON, Event, Lecture
+  exposed-modules:     Lab, JSON, Event, Lecture, REPL
   build-depends:       base >= 4.7 && < 5, random, text
   default-language:    Haskell2010
   default-extensions:  TypeSynonymInstances, FlexibleInstances
